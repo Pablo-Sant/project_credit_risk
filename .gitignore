@@ -1,0 +1,115 @@
+proximos_passos.txt
+link_kaggle.txt
+description_datasets.txt
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ===========================
+# Virtual environments
+# ===========================
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ===========================
+# Jupyter / IPython
+# ===========================
+.ipynb_checkpoints/
+.profile_default/
+ipython_config.py
+
+# ===========================
+# VS Code / IDEs
+# ===========================
+.vscode/
+.idea/
+*.iml
+
+# ===========================
+# OS files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# Data (RAW & PROCESSED)
+# ===========================
+data/raw/home-credit-default-risk
+data/processed/
+data/interim/
+*.csv
+*.parquet
+*.feather
+
+# ===========================
+# ML Artifacts
+# ===========================
+models/
+artifacts/
+checkpoints/
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# ===========================
+# Experiment tracking
+# ===========================
+mlruns/
+wandb/
+lightning_logs/
+tensorboard/
+
+# ===========================
+# Datasets cache
+# ===========================
+.kaggle/
+.cache/
+
+# ===========================
+# Secrets & credentials
+# ===========================
+.env
+.env.*
+secrets.yaml
+credentials.json
+
+# ===========================
+# Build / dist
+# ===========================
+build/
+dist/
+*.egg
+
+# ===========================
+# Reports / outputs
+# ===========================
+reports/
+outputs/
+figures/
+
+# ===========================
+# Temporary files
+# ===========================
+tmp/
+temp/
+*.tmp
+*.bak
