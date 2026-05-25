@@ -62,7 +62,6 @@ data/interim/
 # ===========================
 # ML Artifacts
 # ===========================
-models/
 artifacts/
 checkpoints/
 *.joblib
@@ -113,3 +112,7 @@ tmp/
 temp/
 *.tmp
 *.bak
+
+
+description_features_bureau.md
+description_features_credit_card_balance.md
